@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Add Audio..</title>
+	
+	
+	<style type="text/css">	
+	
+#file
+{
+	font-family:Roman;
+	font-size:30px;
+	padding:100px;
+	height:320px;
+	width:600px;
+	color:white;
+
+	background-color: rgb(0,128,128);
+	-moz-box-shadow: inset 0 0 10px #777777;
+	-webkit-box-shadow: inset 0 0 10px #777777;
+	box-shadow: inset 0 0 10px #777777;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	
+}
+</style>
+
+</head>
+
+<body background="images/NsWg1f.jpg">
+
+<form action="upload.php" method="post" enctype="multipart/form-data">
+
+
+	<br><br><br><br><br><br><br><br>
+	<center>
+
+<table id="file" cellspacing="0">
+<tr>
+<td>Choose File:</td>
+</tr>
+
+<tr>
+<td><input type="file" name="audiofile" required="required" accept="audio/mp3"/></td>
+</tr>
+
+<tr>
+<td><input type="submit" value="upload audio" name="save_audio"/></td>
+</tr>
+</table>
+</center>
+	
+
+</form>
+</body>
+</html>
